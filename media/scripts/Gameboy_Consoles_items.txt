@@ -1,0 +1,143 @@
+module Video_Game_Consoles
+
+{
+	imports
+	{
+		Base
+	}
+
+/****************games****************/
+
+/***GameBoy***/
+
+	item GB_Cartridge_Zelda
+    {
+        DisplayName	            =	GB The Legend of Zelda: Link's Awakening,
+        Weight	                =	0.02,
+        Icon	                =	GB_Cartridge_Zelda_i,
+        DisplayCategory 		=	Electronics,
+        WorldStaticModel		=	GB_Cartridge_Zelda
+    }
+	
+	item GB_Cartridge_Kirby
+    {
+        DisplayName	            =	GB Kirby's Dream Land,
+        Weight	                =	0.02,
+        Icon	                =	GB_Cartridge_Kirby_i,
+        DisplayCategory 		=	Electronics,
+        WorldStaticModel		=	GB_Cartridge_Kirby,
+        rom = cartridge/Kirby.gb
+    }
+	
+	item GB_Cartridge_Fantasy
+    {
+        DisplayName	            =	GB Final Fantasy Adventure,
+        Weight	                =	0.02,
+        Icon	                =	GB_Cartridge_Fantasy_i,
+        DisplayCategory 		=	Electronics,
+        WorldStaticModel		=	GB_Cartridge_Fantasy,
+        rom = cartridge/FFA.gb
+    }
+	
+	item GB_Cartridge_Mario
+    {
+        DisplayName	            =	GB Super Mario Land,
+        Weight	                =	0.02,
+        Icon	                =	GB_Cartridge_Mario_i,
+        DisplayCategory 		=	Electronics,
+        WorldStaticModel		=	GB_Cartridge_Mario,
+        rom = cartridge/Super Mario Land (JUE) (V1.1) [!].gb
+    }
+	
+	item GB_Cartridge_Tetris
+    {
+        DisplayName	            =	GB Tetris,
+        Weight	                =	0.02,
+        Icon	                =	GB_Cartridge_Tetris_i,
+        DisplayCategory 		=	Electronics,
+        WorldStaticModel		=	GB_Cartridge_Tetris,
+        rom = cartridge/Tetris.gb
+    }
+	
+/****************recipes****************/
+
+/**Play_GB**/
+
+	recipe Play Zelda
+    {
+       GameBoy,
+       keep GB_Cartridge_Zelda,
+       Result: GameBoy,
+       Time:10.0,
+       Category:Leisure,
+       AnimNode:Craft,
+	   Prop2:Video_Game_Consoles.GameBoy_A,
+       Sound:zelda_game_gb,
+	   IsHidden:true,
+	   RemoveResultItem:true,
+     OnCreate: GameboyEmu.OnCreate
+    }
+	
+	recipe Play Kirby
+    {
+       GameBoy,
+       keep GB_Cartridge_Kirby,
+       Result: GameBoy,
+       Time:10.0,
+       Category:Leisure,
+       AnimNode:Craft,
+	   Prop2:Video_Game_Consoles.GameBoy_A,
+       Sound:kirby_game_gb,
+	   IsHidden:true,
+	   RemoveResultItem:true,
+     OnCreate: GameboyEmu.OnCreate
+    }
+	
+	recipe Play Final Fantasy
+    {
+       GameBoy,
+       keep GB_Cartridge_Fantasy,
+       Result: GameBoy,
+       Time:10.0,
+       Category:Leisure,
+       AnimNode:Craft,
+	   Prop2:Video_Game_Consoles.GameBoy_A,
+       Sound:fantasy_game_gb,
+	   IsHidden:true,
+	   RemoveResultItem:true,
+     OnCreate: GameboyEmu.OnCreate,
+    }
+	
+	recipe Play Mario
+    {
+       GameBoy,
+       keep GB_Cartridge_Mario,
+       Result: GameBoy,
+       Time:10.0,
+       Category:Leisure,
+       AnimNode:Craft,
+	   Prop2:Video_Game_Consoles.GameBoy_A,
+       Sound:mario_game_gb,
+	   IsHidden:true,
+	   RemoveResultItem:true,
+     OnCreate: GameboyEmu.OnCreate,
+    }
+	
+	recipe Play Tetris
+    {
+       GameBoy,
+       keep GB_Cartridge_Tetris,
+	   Result: GameBoy,
+       Time:10.0,
+       Category:Leisure,
+       AnimNode:Craft,
+	   Prop2:Video_Game_Consoles.GameBoy_A,
+       Sound:tetris_game_gb,
+	   IsHidden:true,
+	   RemoveResultItem:true,
+     OnCreate: GameboyEmu.OnCreate,
+    }
+	
+	
+}
+
