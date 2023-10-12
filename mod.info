@@ -1,0 +1,5 @@
+name=Playable Game Boy
+poster=screen.png
+id=playable_game_boy
+description=Play GameBoy console game in Project Zomboid.
+require=Video_Game_Consoles
