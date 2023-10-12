@@ -33,6 +33,7 @@ If you must try it, follow the complicated steps described below:
 
 ```
 GB KEY <--> Keyboard
+---------------------
 UP          UP
 Down        Down
 Left        Left
