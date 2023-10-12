@@ -31,6 +31,17 @@ If you must try it, follow the complicated steps described below:
 12. Enter the PZ game and find the GB cartridge and GB console.
 13. Emmmmm.........
 
+```
+GB KEY <--> Keyboard
+UP          UP
+Down        Down
+Left        Left
+Right       Right
+A           End
+B           PgDn
+Start       Enter
+Select      Ctrl
+```
 
 
 # Technical details
