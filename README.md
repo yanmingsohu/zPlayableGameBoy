@@ -11,6 +11,7 @@ This mod is just as a technical demonstration, he shows a possibility that allow
 Trust me.
 
 
+
 # Install
 
 If you must try it, follow the complicated steps described below:
@@ -29,6 +30,7 @@ If you must try it, follow the complicated steps described below:
 11. Find the corresponding game name modification `=` the path behind
 12. Enter the PZ game and find the GB cartridge and GB console.
 13. Emmmmm.........
+
 
 
 # Technical details
