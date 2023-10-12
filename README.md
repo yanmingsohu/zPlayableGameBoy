@@ -3,9 +3,12 @@
 !!!!!! Do Not Use this MOD !!!!!!
 
 
+![screen1](https://github.com/yanmingsohu/zPlayableGameBoy/blob/master/screen.png)
+
+
 This mod is just as a technical demonstration, he shows a possibility that allows you to go through hard times with old GB game in default, but you find that GB is very slow, so much that this GB makes you feel like dying is a good choice.
 
-Trust me
+Trust me.
 
 
 # Install
