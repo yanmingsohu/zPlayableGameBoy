@@ -343,4 +343,9 @@ function M.bit.bswap(x)
   return bit_tobit(bswap(x % MOD))
 end
 
-return M.bit32
+
+print("Sortware BIT op")
+
+-- Try to return to the native `bit` library, 
+-- which is implemented in https://github.com/yanmingsohu/kahlua2
+return bit or M.bit32
