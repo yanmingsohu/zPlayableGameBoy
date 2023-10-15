@@ -54,4 +54,8 @@ This is an unfinished emulator, and many roms cannot run. It runs very fast on t
 This library simulates bit operations, which is another reason for slowness.: `https://github.com/AlberTajuelo/bitop-lua`
 
 
-Anyway, I don't want to touch this code anymore, so I put it on github so anyone can do whatever they want: `https://github.com/yanmingsohu/zPlayableGameBoy`
+Anyway, ~~I don't want to touch this code anymore,~~ so I put it on github so anyone can do whatever they want: `https://github.com/yanmingsohu/zPlayableGameBoy`
+
+Now I'm trying to rebuild the Lua engine in another project: https://github.com/yanmingsohu/kahlua2
+
+If you think my work is good, you can support me here: https://www.patreon.com/messycode411
